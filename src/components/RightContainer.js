@@ -6,7 +6,7 @@ import ChatMessage from './ChatMessage'
 const RightContainer = () => {
   return (
     
-    <div className='w-full flex flex-col'>
+    <div className='w-full flex relative flex-col'>
         <MsgBar/>
         <div className=' flex flex-grow bg-background '></div>
         <ChatMessage/>

@@ -13,7 +13,7 @@ const LeftContainer = () => {
         <FaGripLines style={{ color: "#ffffff"}} size="30px" />
         </div>
         {
-          Array(10).fill().map((_, index) => (
+          Array(20).fill().map((_, index) => (
             <Chat key={index} />
         ))
         }
