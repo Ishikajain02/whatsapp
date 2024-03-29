@@ -1,11 +1,15 @@
 import React from 'react'
 import IconBar from './IconBar'
+import MsgBar from './MsgBar'
+import ChatMessage from './ChatMessage'
 
 const RightContainer = () => {
   return (
     
-    <div className='w-full'>
-        <IconBar/>
+    <div className='w-full flex flex-col'>
+        <MsgBar/>
+        <div className=' flex flex-grow bg-background '></div>
+        <ChatMessage/>
     </div>
   )
 }

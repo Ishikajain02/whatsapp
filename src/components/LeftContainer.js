@@ -5,7 +5,7 @@ import { FaGripLines } from "react-icons/fa6";
 const LeftContainer = () => {
     const [input,setinput]=useState("Search");
   return (
-    <div className="h-full flex flex-col w-[36rem] bg-blue">
+    <div className="h-full flex flex-col w-[36rem] bg-blue shadow-md ">
         <IconBar/>
         <div className='flex flex-row items-center'>
         <input  className="p-2 m-4 w-[20rem] h-8 rounded-xl text-white bg-g"value = {input}onChange={(e)=>setinput(e.target.value)}></input>
